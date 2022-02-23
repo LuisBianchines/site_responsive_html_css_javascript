@@ -13,13 +13,13 @@
         <h1 class="logo">Design Responsivo</h1>
     </header>
 
-    <nav class="menu-principal">
+    <nav class="menu-principal cabecalho">
         <button class="menu-principal__btn menu-principal__btn--fechar">Abrir/fechar menu</button>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre nós</a></li>
-            <li><a href="portfolio.html">Portfólio</a></li>
-            <li><a href="contato.html">Contato</a></li>
+        <ul class="menu-principal__lista">
+            <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a></li>
+            <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+            <li><a class="menu-principal__item" href="portfolio.html">Portfólio</a></li>
+            <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
         </ul>
     </nav>
     
@@ -30,56 +30,60 @@
             <a href="#servicos">Role para ver mais</a>
         </header>
         <section id="servicos"><!--Seção serviços-->
+            <h2>O que fazemos</h2>
             <img src="img/icone-desenvolvimento-web.png" alt="planeta">
             <h3>Desenvolvimento Web</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ducimus nesciunt repudiandae. Ullam voluptatem quo voluptatum ipsam repellendus tempora.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum ex a nunc fermentum congue. Aliquam dignissim pulvinar arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
         </section>
         <section>
             <img src="img/icone-carrinho-compras.png" alt="carrinho de compras">
             <h3>E-commerce</h3>
-            <p>Ullam voluptatem quo voluptatum ipsam repellendus tempora.</p>
+            <p>In hac habitasse platea dictumst. Proin ut pellentesque mauris. Nunc in varius justo. Phasellus vulputate ut neque non auctor. Fusce vitae urna egestas, finibus ante non, laoreet nunc.</p>
         </section>
         <section>
             <img src="img/icone-cafe.png" alt="chicara de cafe">
             <h3>Café</h3>
-            <p>Iste omnis architecto ullam corrupti quasi officia minima adipisci itaque voluptatibus, non quia fuga, molestiae nihil commodi accusamus alias cum totam.</p>
+            <p>Aliquam ac lorem sapien. Nullam suscipit purus vel erat aliquam scelerisque. Aenean sed turpis a nibh laoreet iaculis a et nulla. Aenean at felis ex. Nulla ut dui aliquet, fermentum massa vitae, accumsan erat.</p>
         </section><!-- Fim seção serviços-->
         <section>
             <h2>O que falam de nós</h2><!--Seção depoimentos-->
             <section>
                 <img src="img/depoimentos/pessoa-1.jpg" alt="foto da pessoa">
-                <p>Repellat nihil pariatur, voluptas ex maiores odio deleniti cupiditate magni labore. Doloremque iusto saepe esse!</p>
+                <p>Phasellus dapibus sapien et est blandit, ornare interdum arcu iaculis. Vestibulum placerat ex sit amet erat mattis bibendum. Mauris non mi augue.</p>
                 <p>Nome da Pessoa - Cargo</p>
             </section>
         </section><!--Fim seção depoimentos-->
     </main>
 
-    <footer>
-        <div>
-            <div>
-                <a href="index.html" class="logo">Design Responsivo</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rem perferendis nemo ipsum temporibus ut quaerat aliquam expedita. Incidunt neque quisquam culpa repellat animi non aliquid ipsum dolorum officiis quos.</p>
+    <footer class="rodape">
+        <div  class="rodape__linha-1">
+            <div class="rodape__coluna">
+                <a href="index.html" class="logo logo--branco">Design Responsivo</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde repellat iusto porro laudantium quae, magni saepe? Explicabo, perspiciatis at commodi corporis quidem modi laudantium quis vero, aliquam ab voluptatem.</p>
             </div>
-            <div>
-                <h2>Social</h2>
-                <ul>
-                    <li><a href="https://">Linkedin</a></li>
-                    <li><a href="https://">Github</a></li>
-                    <li><a href="https://">Instagram</a></li>
-                    <li><a href="https://">Linkedin</a></li>
-                    <li><a href="https://">Email</a></li>
-                    <li><a href="https://">Currículo</a></li>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Social</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__item" href="https://">Linkedin</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://">Github</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://">Instagram</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://">Linkedin</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://">Email</a></li>
+                    <li><a class="rodape__lista-links__item" href="https://">Currículo</a></li>
                 </ul>
             </div>
-            <div>
-                <h2>Links</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre nós</a></li>
-                    <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+            <div class="rodape__coluna">
+                <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+                    <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="rodape__lista-links__item" href="portfolio.html">Portfólio</a></li>
+                    <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="rodape__linha-2">
+            © 2022 - Todos os direitos reservados - Luis Bianchine
         </div>    
     </footer>
 </body>

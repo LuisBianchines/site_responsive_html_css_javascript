@@ -1,5 +1,11 @@
+/*Base*/
 *{
     box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 @font-face{
@@ -17,6 +23,7 @@ body{
     font-family: "Source Sans Pro";
 }
 
+/*Cabeçalho*/
 .cabecalho{
     background: #fff;
     padding: 15px;
@@ -128,3 +135,4 @@ body{
     margin-right: 8px;
     color: #f44242;
 }
+
